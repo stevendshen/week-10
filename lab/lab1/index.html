@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/leaflet.css" />
     <!-- Choose a frontend framework CSS file: -->
-    <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <!-- <link rel="stylesheet" href="css/material.css" /> -->
     <!-- <link rel="stylesheet" href="css/assembly.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
@@ -18,8 +18,23 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid clearfix">
           <div class="topright-button" style="float: right">
-            [Add New]
+
+            <ul class="nav nav-tabs">
+            <li role="presentation" class="dropdown">
+
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                [Add New] <span class="caret"></span>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a href = "#">View History</a></li>
+                <li><a href = "#">Email All Manufacturers</a></li>
+              </ul>
+
+            </li>
+          </ul>
           </div>
+
           <div class="navbar-header">
             <a href="#">Manufacturers</a>
           </div>
@@ -60,7 +75,7 @@
     <script src="js/jquery-2.2.0.js"></script>
     <script src="js/leaflet.js"></script>
     <!-- Choose a frontend framework Javascript file: -->
-    <!-- <script src="js/bootstrap.js"></script> -->
+    <script src="js/bootstrap.js"></script>
     <!-- <script src="js/material.js"></script> -->
     <!-- <script src="js/assembly.js"></script>  -->
     <script src="js/setup.js"></script>
